@@ -1,0 +1,6 @@
+10/12/2026-20:06:08.986042  [**] [1:1000101:1] DEBUG Modbus write to register 0 [**] [Classification: (null)] [Priority: 3] {TCP} 172.28.10.10:37596 -> 172.28.10.254:5020
+10/12/2026-20:08:32.670852  [**] [1:1000101:1] DEBUG Modbus write to register 0 [**] [Classification: (null)] [Priority: 3] {TCP} 172.28.10.20:59098 -> 172.28.10.254:5020
+10/12/2026-20:08:32.670852  [**] [1:1000102:1] DEBUG Modbus exact value 40 [**] [Classification: (null)] [Priority: 3] {TCP} 172.28.10.20:59098 -> 172.28.10.254:5020
+10/12/2026-20:08:32.670852  [**] [1:1000103:1] DEBUG Modbus value below 50 [**] [Classification: (null)] [Priority: 3] {TCP} 172.28.10.20:59098 -> 172.28.10.254:5020
+10/12/2026-20:08:32.670852  [**] [1:1000104:1] DEBUG Modbus low setpoint range [**] [Classification: (null)] [Priority: 3] {TCP} 172.28.10.20:59098 -> 172.28.10.254:5020
+10/12/2026-20:06:31.427777  [**] [1:1000101:1] DEBUG Modbus write to register 0 [**] [Classification: (null)] [Priority: 3] {TCP} 172.28.10.10:47494 -> 172.28.10.254:5020

@@ -1,0 +1,19 @@
+test_id,configuration,trial,client,operation,ground_truth,register_before,register_after,register_changed,expected_register_after,state_verified,connection_success,request_success,request_outcome,elapsed_ms,timestamp_utc,pcap_file
+E01,B,1,hmi,read,Benign,60,60,False,60,True,True,True,Success,2.946,2026-10-13T02:03:21.354087+00:00,B_E01_trial1.pcap
+E01,B,2,hmi,read,Benign,60,60,False,60,True,True,True,Success,2.74,2026-10-13T02:03:29.306285+00:00,B_E01_trial2.pcap
+E01,B,3,hmi,read,Benign,60,60,False,60,True,True,True,Success,2.64,2026-10-13T02:03:37.269458+00:00,B_E01_trial3.pcap
+E02,B,1,hmi,write,Benign,60,65,True,65,True,True,True,Success,2.944,2026-10-13T02:03:45.206727+00:00,B_E02_trial1.pcap
+E02,B,2,hmi,write,Benign,60,65,True,65,True,True,True,Success,5.903,2026-10-13T02:03:53.409537+00:00,B_E02_trial2.pcap
+E02,B,3,hmi,write,Benign,60,65,True,65,True,True,True,Success,2.843,2026-10-13T02:04:01.319712+00:00,B_E02_trial3.pcap
+E03,B,1,test-client,read,Suspicious,60,60,False,60,True,False,False,Connection Failed,1.968,2026-10-13T02:04:09.295247+00:00,B_E03_trial1.pcap
+E03,B,2,test-client,read,Suspicious,60,60,False,60,True,False,False,Connection Failed,1.832,2026-10-13T02:04:17.242387+00:00,B_E03_trial2.pcap
+E03,B,3,test-client,read,Suspicious,60,60,False,60,True,False,False,Connection Failed,1.743,2026-10-13T02:04:25.288137+00:00,B_E03_trial3.pcap
+E04,B,1,test-client,write,Suspicious,60,60,False,60,True,False,False,Connection Failed,1.91,2026-10-13T02:04:33.308006+00:00,B_E04_trial1.pcap
+E04,B,2,test-client,write,Suspicious,60,60,False,60,True,False,False,Connection Failed,1.966,2026-10-13T02:04:41.299631+00:00,B_E04_trial2.pcap
+E04,B,3,test-client,write,Suspicious,60,60,False,60,True,False,False,Connection Failed,1.818,2026-10-13T02:04:49.237592+00:00,B_E04_trial3.pcap
+E05,B,1,hmi,write,Suspicious,60,40,True,40,True,True,True,Success,3.338,2026-10-13T02:04:57.218386+00:00,B_E05_trial1.pcap
+E05,B,2,hmi,write,Suspicious,60,40,True,40,True,True,True,Success,2.836,2026-10-13T02:05:05.339633+00:00,B_E05_trial2.pcap
+E05,B,3,hmi,write,Suspicious,60,40,True,40,True,True,True,Success,3.224,2026-10-13T02:05:13.418591+00:00,B_E05_trial3.pcap
+E06,B,1,hmi,write,Benign,60,60,False,60,True,True,True,Success,2.72,2026-10-13T02:05:21.393286+00:00,B_E06_trial1.pcap
+E06,B,2,hmi,write,Benign,60,60,False,60,True,True,True,Success,2.769,2026-10-13T02:05:29.449539+00:00,B_E06_trial2.pcap
+E06,B,3,hmi,write,Benign,60,60,False,60,True,True,True,Success,3.907,2026-10-13T02:05:37.577900+00:00,B_E06_trial3.pcap

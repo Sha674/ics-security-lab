@@ -1,0 +1,7 @@
+alert modbus any any -> any any (msg:"DEBUG Modbus write to register 0"; flow:to_server; modbus: access write holding, address 1; sid:1000101; rev:1;)
+
+alert modbus any any -> any any (msg:"DEBUG Modbus exact value 40"; flow:to_server; modbus: access write holding, address 1, value 40; sid:1000102; rev:1;)
+
+alert modbus any any -> any any (msg:"DEBUG Modbus value below 50"; flow:to_server; modbus: access write holding, address 1, value <50; sid:1000103; rev:1;)
+
+alert modbus any any -> any any (msg:"DEBUG Modbus low setpoint range"; flow:to_server; modbus: access write holding, address 1, value 0<>50; sid:1000104; rev:1;)

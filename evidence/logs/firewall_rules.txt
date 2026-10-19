@@ -1,0 +1,2 @@
+-P INPUT ACCEPT
+-A INPUT -s 172.28.10.20/32 -p tcp -m tcp --dport 5020 -j REJECT --reject-with tcp-reset

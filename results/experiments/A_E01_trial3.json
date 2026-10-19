@@ -1,0 +1,15 @@
+{
+  "test_id": "E01",
+  "configuration": "A",
+  "trial": 3,
+  "operation": "read",
+  "register": 0,
+  "requested_value": null,
+  "timestamp_utc": "2026-10-13T01:58:05.024005+00:00",
+  "connection_success": true,
+  "request_success": true,
+  "outcome": "Success",
+  "elapsed_ms": 2.892,
+  "response_value": 60,
+  "error": null
+}

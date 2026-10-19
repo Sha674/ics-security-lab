@@ -1,0 +1,56 @@
+
+services:
+  plc:
+    build: ./plc
+    command: python server.py
+    volumes:
+      - ./plc/server.py:/app/server.py:ro
+    networks:
+      ot_net:
+        ipv4_address: 172.28.20.10
+
+  gateway:
+    build: ./gateway
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    depends_on:
+      - plc
+    volumes:
+      - ./evidence:/evidence
+    networks:
+      client_net:
+        ipv4_address: 172.28.10.254
+      ot_net:
+        ipv4_address: 172.28.20.254
+
+  hmi:
+    build: ./plc
+    command: sleep infinity
+    volumes:
+      - ./clients:/app:ro
+    networks:
+      client_net:
+        ipv4_address: 172.28.10.10
+
+  test-client:
+    build: ./plc
+    command: sleep infinity
+    volumes:
+      - ./clients:/app:ro
+    networks:
+      client_net:
+        ipv4_address: 172.28.10.20
+
+networks:
+  client_net:
+    internal: true
+    ipam:
+      config:
+        - subnet: 172.28.10.0/24
+
+  ot_net:
+    internal: true
+    ipam:
+      config:
+        - subnet: 172.28.20.0/24

@@ -1,0 +1,19 @@
+{
+  "test_id": "E05",
+  "configuration": "A",
+  "trial": 3,
+  "client": "hmi",
+  "operation": "write",
+  "ground_truth": "Suspicious",
+  "register_before": 60,
+  "register_after": 40,
+  "register_changed": true,
+  "expected_register_after": 40,
+  "state_verified": true,
+  "connection_success": true,
+  "request_success": true,
+  "request_outcome": "Success",
+  "elapsed_ms": 2.951,
+  "timestamp_utc": "2026-10-13T01:59:40.378061+00:00",
+  "pcap_file": "A_E05_trial3.pcap"
+}

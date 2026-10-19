@@ -1,0 +1,19 @@
+{
+  "test_id": "E03",
+  "configuration": "A",
+  "trial": 2,
+  "client": "test-client",
+  "operation": "read",
+  "ground_truth": "Suspicious",
+  "register_before": 60,
+  "register_after": 60,
+  "register_changed": false,
+  "expected_register_after": 60,
+  "state_verified": true,
+  "connection_success": true,
+  "request_success": true,
+  "request_outcome": "Success",
+  "elapsed_ms": 3.122,
+  "timestamp_utc": "2026-10-13T01:58:44.912518+00:00",
+  "pcap_file": "A_E03_trial2.pcap"
+}

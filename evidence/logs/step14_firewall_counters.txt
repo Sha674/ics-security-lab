@@ -1,0 +1,3 @@
+Chain INPUT (policy ACCEPT 1460 packets, 81673 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+1        6   360 REJECT     tcp  --  *      *       172.28.10.20         0.0.0.0/0            tcp dpt:5020 reject-with tcp-reset

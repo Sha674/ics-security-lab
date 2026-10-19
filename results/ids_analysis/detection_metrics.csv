@@ -1,0 +1,4 @@
+Rule,TP,FP,TN,FN,Precision,Recall,FPR,F1
+General write rule,6,6,3,3,0.5,0.6667,0.6667,0.5714
+Process-aware rule,6,0,9,3,1.0,0.6667,0.0,0.8
+Any custom alert,6,6,3,3,0.5,0.6667,0.6667,0.5714

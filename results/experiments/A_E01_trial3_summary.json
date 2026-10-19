@@ -1,0 +1,19 @@
+{
+  "test_id": "E01",
+  "configuration": "A",
+  "trial": 3,
+  "client": "hmi",
+  "operation": "read",
+  "ground_truth": "Benign",
+  "register_before": 60,
+  "register_after": 60,
+  "register_changed": false,
+  "expected_register_after": 60,
+  "state_verified": true,
+  "connection_success": true,
+  "request_success": true,
+  "request_outcome": "Success",
+  "elapsed_ms": 2.892,
+  "timestamp_utc": "2026-10-13T01:58:05.024005+00:00",
+  "pcap_file": "A_E01_trial3.pcap"
+}

@@ -1,0 +1,20 @@
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in USER mode
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: cpu: CPUs/cores online: 4
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: suricata: Setting engine mode to IDS mode by default
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: exception-policy: master exception-policy set to: auto
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: suricata: Preparing unexpected signal handling
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: logopenfile: fast output device (regular) initialized: fast.log
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: logopenfile: stats output device (regular) initialized: stats.log
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: detect: 2 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 2 inspect application layer, 0 are decoder event only
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[68931 - RX#01] 2026-10-12 22:12:01 Info: pcap: Starting file run for /home/kali/ics-security-lab/evidence/pcaps/experiments/A_E03_trial3.pcap
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Notice: threads: Threads created -> RX: 1 W: 4 FM: 1 FR: 1   Engine started.
+[68931 - RX#01] 2026-10-12 22:12:01 Info: pcap: pcap file /home/kali/ics-security-lab/evidence/pcaps/experiments/A_E03_trial3.pcap end of file reached (pcap err code 0)
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Notice: suricata: Signal Received.  Stopping engine.
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: suricata: time elapsed 0.047s
+[68931 - RX#01] 2026-10-12 22:12:01 Notice: pcap: read 1 file, 10 packets, 759 bytes
+[68929 - Suricata-Main] 2026-10-12 22:12:01 Info: counters: Alerts: 0
+[68930 - US] 2026-10-12 22:12:01 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket' closed

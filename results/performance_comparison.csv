@@ -1,0 +1,4 @@
+Scenario,Baseline_Median_ms,Firewall_Median_ms,Difference_ms,Change_Percent,Baseline_Min_ms,Baseline_Max_ms,Firewall_Min_ms,Firewall_Max_ms
+E01,3.147,2.74,-0.407,-12.93,2.892,4.7,2.64,2.946
+E02,3.456,2.944,-0.512,-14.81,3.126,3.729,2.843,5.903
+E06,2.514,2.769,0.255,10.14,2.484,2.579,2.72,3.907

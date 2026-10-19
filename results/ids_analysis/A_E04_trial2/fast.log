@@ -1,0 +1,2 @@
+10/12/2026-21:59:08.746825  [**] [1:1000001:1] ICS LAB Modbus holding register write detected [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.28.10.20:54254 -> 172.28.10.254:5020
+10/12/2026-21:59:08.746825  [**] [1:1000002:2] ICS LAB Abnormally low temperature setpoint [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.28.10.20:54254 -> 172.28.10.254:5020
